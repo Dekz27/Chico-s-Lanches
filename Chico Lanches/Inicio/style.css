@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: "Segoe UI", Reboto, Helvetica, Arial, sans-serif;
+}
+
+.cabeçalho {
+    margin-top: 10px;
+    background-color: crimson;
+    font-family: "Segoe UI", Reboto, Helvetica, Arial, sans-serif;
+    font-size: 65px;
+    color: gold;
+    -webkit-text-stroke: 2px black;
+    stroke-width: 20px;
+    }
+
+.painel-navegacao {
+    position: sticky; top: 0;
+    background-color: gold;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    flex-wrap: wrap;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-navegacao ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.painel-navegacao li {
+    margin: 0 15px;
+}
+
+.painel-navegacao a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.painel-navegacao a:hover {
+    background-color: goldenrod;
+}
+
+.caixa-lanches {
+    background-color: crimson;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 27px;
+    margin-top: 35px;
+    position: absolute;
+    right: 3px;
+    width: 200px;
+    height: auto;
+}
+
+.caixa-lanches ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.caixa-lanches li {
+    margin: 0 15px;
+}
+
+.caixa-lanches a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.caixa-lanches a:hover {
+    background-color: rgb(195, 19, 54); 
+}
+
+.populares {
+    margin-left: 30px;
+    width: 1px;
+    height: 600px;
+}
+
+#footer {
+    background-color: crimson !important;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+    text-align: center;
+    width: 98%;
+    display: block;
+    position: absolute;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.titulo-lanches {
+    margin-left: 30px;
+}
